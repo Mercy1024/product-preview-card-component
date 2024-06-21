@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -10,9 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-
-
-
 
 ## Overview
 
@@ -28,10 +25,9 @@ Users should be able to:
 ![](/images/image-product-mobile.jpg)
 ![](/images/image-product-desktop.jpg)
 
-
 ### Links
 
-- Solution URL: [Solution URLGOT](https://your-solution-url.com)
+- Solution URL: [Solution URLGOT](https://www.frontendmentor.io/solutions/product-preview-card-component-1GgDfwXpf7)
 - Live Site URL: [Live Site](https://product-preview-card-component-one-eta.vercel.app/)
 
 ## My process
