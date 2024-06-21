@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Fraunces");
+
+/* || VARIABLES */
+
+*:root {
+  /* COLOR */
+
+  /* Primary */
+  --DarkCyan: hsl(158, 36%, 37%);
+  --CyanHover: hsl(158, 41%, 23%);
+  --Cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --VeryDarkBlue: hsl(212, 21%, 14%);
+  --Darkgrayishblue: hsl(228, 12%, 48%);
+
+  /* FONTS */
+  --FF1: "Montserrat";
+  --FF2: "Fraunces";
+  --FS: 14px;
+  --FW1: 500;
+  --FW2: 700;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  max-height: 100vh;
+  background-color: var(--Cream);
+}
+
+.container {
+  max-width: 400px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--White);
+  gap: 1rem;
+}
+
+.container .hero {
+  width: 100%;
+}
+
+.container .hero img {
+  border-radius: 1rem 1rem 0rem 0rem;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  gap: 1rem;
+}
+
+header .tag {
+  width: 100%;
+  text-transform: uppercase;
+  color: var(--Darkgrayishblue);
+  text-align: left;
+  font-family: var(--FF1);
+  font-weight: var(--FW1);
+  letter-spacing: 4px;
+}
+
+header h1 {
+  width: 100%;
+  font-family: var(--FF2);
+  font-weight: var(--FW2);
+  color: var(--VeryDarkBlue);
+  font-size: 2rem;
+}
+
+main .description {
+  color: var(--Darkgrayishblue);
+  font-family: var(--FF1);
+  font-weight: var(--FW1);
+  line-height: 1.5rem;
+}
+
+main .price .newPrice {
+  display: block;
+  font-weight: var(--FW2);
+  font-family: var(--FF2);
+  font-size: 2rem;
+  color: var(--DarkCyan);
+}
+
+main .price .oldPrice {
+  display: block;
+  font-weight: var(--FW1);
+  font-family: var(--FF1);
+  color: var(--Darkgrayishblue);
+  text-decoration: line-through;
+}
+
+main .price {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+main .btn {
+  font-family: var(--FF1);
+  width: 100%;
+  background-color: var(--DarkCyan);
+  color: var(--White);
+  border-radius: 1rem;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--FW2);
+  gap: 1rem;
+}
+
+main .btn:hover {
+  background-color: var(--CyanHover);
+  transition: 0.5s;
+}
+
+.container .hero .desktop{
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    margin-top: 6rem;
+    flex-direction: row;
+    max-width: 600px;
+  }
+
+  .container .hero {
+    width: 100%;
+  }
+
+  .container .hero .desktop {
+  border-radius: 1rem 0rem 0rem 1rem;
+  width: 100%;
+  display: block;
+  }
+
+  .container .hero .mobile{
+    display: none;
+  }
+
+
+header{
+  gap: 2rem;
+}
+
+main{
+  gap: 1rem;
+}
+
+main.price{
+  margin-bottom: 1rem;
+}
+
+}
